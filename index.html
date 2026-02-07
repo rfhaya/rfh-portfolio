@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/images/icons/sakura.png" />
+    <title>Rizky Fitria Haya</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <div class="logo-icon">
+            <img src="assets/images/icons/cherry-blossom.png" alt="RFH Logo" />
+          </div>
+          <span class="logo-text">RFH</span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">
+              <span class="name-highlight">Rizky Fitria Haya</span>
+            </h1>
+            <div class="subtitle-container">
+              <span class="typing-text" id="typingText"></span>
+            </div>
+            <p class="description">
+              Proficient Front End Developer adept in Next.js, React, Python,
+              and Tailwind CSS. Passionate about crafting responsive UIs,
+              seamless API integration, and optimizing web performance to
+              deliver innovative solutions.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="avatar-container">
+              <div class="avatar-bg"></div>
+              <img
+                src="assets/images/profile/cartoon.png"
+                alt="Rizky Fitria Haya"
+                class="avatar-image"
+                id="avatarImg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-hero" id="about">
+      <div class="container">
+        <div class="about-hero-grid">
+          <!-- LEFT -->
+          <div class="about-right">
+            <div class="image-wrapper">
+              <img src="assets/images/profile/profil.JPG" alt="About Image" />
+
+              <!-- Circular Badge -->
+              <div class="circle-badge">
+                <svg viewBox="0 0 100 100">
+                  <defs>
+                    <path
+                      id="circlePath"
+                      d="
+                    M 50, 50
+                    m -35, 0
+                    a 35,35 0 1,1 70,0
+                    a 35,35 0 1,1 -70,0
+                  "
+                    />
+                  </defs>
+                  <text>
+                    <textPath href="#circlePath">
+                      • AI • SCALABLE SYSTEMS • CLEAN ARCHITECTURE
+                    </textPath>
+                  </text>
+                </svg>
+                <span class="arrow">➜</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="about-left">
+            <span class="breadcrumb gradient-text">About Me</span>
+
+            <h1>Get to Know <span>Me</span></h1>
+
+            <p>
+              I am a technology-driven developer with a strong foundation in web
+              development, machine learning, and computer vision, focused on
+              building practical and scalable solutions through clean code and
+              thoughtful system design. My experience spans production-ready web
+              applications and research-oriented AI systems, including API-based
+              platforms, intelligent video analysis, and activity recognition.
+              With a full-stack perspective, I bridge frontend usability,
+              backend logic, and data-driven intelligence, prioritizing clarity,
+              performance, and maintainability, while continuously deepening my
+              expertise in AI-powered systems, particularly in human activity
+              recognition, computer vision, and real-world data analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header fade-in">
+          <div class="section-label">My Expertise</div>
+          <h2>Technical <span class="gradient-text">Skills</span></h2>
+          <p>Technologies and tools I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img
+                src="assets/images/icons/frontend.png"
+                alt="Frontend Development"
+              />
+            </div>
+
+            <h3>Frontend Development</h3>
+            <p>
+              Building modern, responsive, and performant web applications with
+              cutting-edge frameworks.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img src="assets/images/icons/ui.png" alt="UI/UX Design" />
+            </div>
+
+            <h3>UI/UX Design</h3>
+            <p>
+              Creating beautiful, user-friendly interfaces with modern design
+              systems and principles.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Ant Design</span>
+              <span class="tag">CorelDraw</span>
+              <span class="tag">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img
+                src="assets/images/icons/ai.png"
+                alt="Machine Learning & AI"
+              />
+            </div>
+
+            <h3>Machine Learning & AI</h3>
+            <p>
+              Developing intelligent systems using deep learning and computer
+              vision techniques.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">ResNet3D</span>
+              <span class="tag">CNN</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img
+                src="assets/images/icons/backend.png"
+                alt="Backend Development"
+              />
+            </div>
+
+            <h3>Backend Development</h3>
+            <p>
+              Building robust backend solutions and APIs for various
+              applications.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">PHP</span>
+              <span class="tag">REST API</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img
+                src="assets/images/icons/tools.png"
+                alt="Tools & Technologies"
+              />
+            </div>
+
+            <h3>Tools & Technologies</h3>
+            <p>
+              Modern development tools and version control systems for efficient
+              workflows.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">npm</span>
+            </div>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon">
+              <img src="assets/images/icons/soft-skill.png" alt="Soft Skills" />
+            </div>
+
+            <h3>Soft Skills</h3>
+            <p>
+              Essential abilities for effective collaboration and
+              problem-solving.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Analytical</span>
+              <span class="tag">Adaptability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header fade-in">
+          <div class="section-label">Career Path</div>
+          <h2>Work <span class="gradient-text">Experience</span></h2>
+          <p>My professional journey</p>
+        </div>
+        <div class="experience-timeline">
+          <div class="experience-item fade-in">
+            <div class="experience-card">
+              <div class="experience-header">
+                <h3>Frontend Web Developer</h3>
+              </div>
+              <div class="experience-meta">
+                <span class="meta-item"
+                  ><img
+                    src="assets/images/icons/placeholder.png"
+                    alt="Location icon"
+                  />
+                  PT. Raksasa Indonesia, Medan City</span
+                >
+                <span class="meta-item"
+                  ><img
+                    src="assets/images/icons/calendar.png"
+                    alt="Date icon"
+                  />
+                  October 2023 - October 2024</span
+                >
+              </div>
+              <ul>
+                <li>
+                  Contributed to the development of a production-ready web
+                  platform for the MRI Beauty Clinic showcased at the LEAP
+                  International event in Riyadh, collaborating closely with the
+                  Project Manager.
+                </li>
+                <li>
+                  Built and maintained internal admin and inventory management
+                  systems, supporting clinic operations, product management, and
+                  workflow efficiency.
+                </li>
+                <li>
+                  Integrated backend APIs and optimized application performance
+                  while developing scalable web applications using Next.js,
+                  Tailwind CSS, and Ant Design.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item fade-in">
+            <div class="experience-card">
+              <div class="experience-header">
+                <h3>Web Developer</h3>
+              </div>
+              <div class="experience-meta">
+                <span class="meta-item">
+                  <img
+                    src="assets/images/icons/placeholder.png"
+                    alt="Location icon"
+                  />
+                  PT. Tiga Ruang Imaji, Medan City</span
+                >
+                <span class="meta-item"
+                  ><img
+                    src="assets/images/icons/calendar.png"
+                    alt="Date icon"
+                  />
+                  March 2022 - August 2022</span
+                >
+              </div>
+              <ul>
+                <li>
+                  Managed 2 web design projects from start to finish using
+                  HTML5, CSS3 and Javascript.
+                </li>
+                <li>
+                  Redesigned and improved the backend interface of an e-learning
+                  platform to enhance usability and navigation flow.
+                </li>
+                <li>
+                  Ensured responsive design and cross-browser compatibility
+                  across all delivered projects.
+                </li>
+                <li>
+                  Applied modern UI/UX principles to improve user engagement and
+                  overall user experience.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item fade-in">
+            <div class="experience-card">
+              <div class="experience-header">
+                <h3>Fieldwork Practices</h3>
+              </div>
+              <div class="experience-meta">
+                <span class="meta-item">
+                  <img
+                    src="assets/images/icons/placeholder.png"
+                    alt="Location icon"
+                  />
+                  Satuan Pelayanan Terminal Tipe A Langsa, Aceh
+                </span>
+
+                <span class="meta-item">
+                  <img src="assets/images/icons/calendar.png" alt="Date icon" />
+                  February 2020 – March 2020
+                </span>
+              </div>
+
+              <ul>
+                <li>
+                  Completed fieldwork practice at a government organization to
+                  gain hands-on experience in public sector operations.
+                </li>
+                <li>
+                  Assisted in data recapitulation for vehicle departures across
+                  both intercity and local transportation routes using Microsoft
+                  Excel.
+                </li>
+                <li>
+                  Developed a simple vehicle counting system to track vehicle
+                  entry and exit as part of the fieldwork project.
+                </li>
+                <li>
+                  Gained practical insights into government workflows and data
+                  management practices.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="featured-projects">
+      <div class="container">
+        <!-- SECTION HEADER -->
+        <div class="projects-header fade-in">
+          <span class="projects-label">✨ Featured Projects</span>
+          <h2>Explore projects I’ve completed</h2>
+        </div>
+
+        <!-- FILTER MENU -->
+        <div class="projects-filter visible">
+          <button class="filter-btn" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="professional">
+            Professional
+          </button>
+          <button class="filter-btn" data-filter="research">Research</button>
+          <button class="filter-btn" data-filter="academic">Academic</button>
+        </div>
+
+        <!-- PROJECT LIST -->
+        <div class="projects-list">
+          <!-- PROJECT 01 -->
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">01.</span>
+              <h3>SIPren – Admin Dashboard</h3>
+              <span class="card-meta">Professional • 2022</span>
+
+              <p>
+                Comprehensive admin dashboard for school management, featuring
+                attendance tracking, academic monitoring, e-learning
+                integration, and performance analytics.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">PHP</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2022/projek-dashboard.png"
+                alt="SIPren Dashboard"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">02.</span>
+              <h3>Teuka.Online E-Learning Platform</h3>
+              <span class="card-meta">Professional • 2022</span>
+
+              <p>
+                Complete e-learning platform for managing teacher and student
+                attendance, course materials, assignments, and digital learning
+                resources with responsive design across all devices.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">PHP</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2022/projek-learning.png"
+                alt="Learning"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- PROJECT 02 -->
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">03.</span>
+              <h3>Saleum Pertamina Website</h3>
+              <span class="card-meta">Professional • 2022</span>
+
+              <p>
+                Modern website for Pertamina employee services, converting
+                design mockups into a fully responsive and functional platform
+                with seamless user experience and cross-browser compatibility.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">HTML/CSS/JS</span>
+                <span class="tag">PHP</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2022/projek-saleum.png"
+                alt="Saleum"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">04.</span>
+              <h3>Admin MRI – Beauty Clinic Management System</h3>
+              <span class="card-meta">Professional • 2024</span>
+
+              <p>
+                Designed and developed a web-based admin system for managing
+                sales, products, and daily operational workflows of a beauty
+                clinic. The platform improves financial tracking, operational
+                efficiency, and usability, and is actively used by the finance
+                division for managing transactions and operational data.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Ant Design</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2024/admin-mri.gif"
+                alt="admin mri"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">05.</span>
+              <h3>MRI Beauty Clinic Website</h3>
+              <span class="card-meta">Professional • 2024</span>
+
+              <p>
+                Frontend website showcased at the LEAP International Event in
+                Riyadh, featuring service catalog, online booking, before/after
+                gallery, and multi-language support to strengthen the clinic’s
+                digital presence.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Ant Design</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2024/leap-mri.png"
+                alt="mri"
+                class="project-image-small"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">06.</span>
+              <h3>Inventory Admin System for Beauty Products</h3>
+              <span class="card-meta">Professional • 2024</span>
+
+              <p>
+                Developed a dedicated inventory management system for beauty
+                products, handling inbound and outbound transactions, stock
+                adjustments, and inventory control. The system improves stock
+                accuracy and operational efficiency and is actively used by the
+                finance division to support inventory tracking and financial
+                reporting.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Ant Design</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2024/inventory.gif"
+                alt="inventory"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card show" data-category="professional">
+            <div class="card-content">
+              <span class="card-index">07.</span>
+              <h3>Enak.id - Admin Website</h3>
+              <span class="card-meta">Professional • 2024</span>
+
+              <p>
+                Developed an internal admin system to manage restaurant kitchen
+                and outlet operations, covering menu configuration, pricing
+                rules, voucher management, and operational workflows. The
+                platform supports daily operational control and approval
+                processes, helping ensure consistency and efficiency across
+                restaurant outlets.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Ant Design</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2024/enak.gif"
+                alt="enak.id"
+                loading="lazy"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- RESEARCH -->
+          <div class="featured-card" data-category="research">
+            <div class="card-content">
+              <span class="card-index">01.</span>
+              <h3>Emo Voice – Speech Emotion Recognition</h3>
+              <span class="card-meta">Research • 2023</span>
+
+              <p>
+                Developed a web-based machine learning application for
+                recognizing emotions from voice input. Built the end-to-end
+                system covering model inference and web integration, enabling
+                users to analyze emotional states through audio data.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">HTML/CSS/JS</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2023/projek-emosi.gif"
+                alt="Emo Recognition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="research">
+            <div class="card-content">
+              <span class="card-index">02.</span>
+              <h3>Pure Brown Sugar Identification</h3>
+              <span class="card-meta">Research • 2023</span>
+
+              <p>
+                Developed a computer vision–based desktop application to
+                identify pure brown sugar and detect blended variants using
+                image and real-time data input. The system performs automated
+                visual classification through a Python-based graphical user
+                interface.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">OpenCV</span>
+                <span class="tag">Tkinter</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2023/projek-gula.gif"
+                alt="Pure Brown Sugar Recognition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="research">
+            <div class="card-content">
+              <span class="card-index">03.</span>
+              <h3>Helmet Detection System</h3>
+              <span class="card-meta">Research • 2022</span>
+
+              <p>
+                Led the development of a computer vision–based system to detect
+                motorcycle helmet usage using real-time input from smartphone
+                cameras. The system supports traffic safety monitoring by
+                automatically identifying helmet compliance through live visual
+                data.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">HTML/CSS/JS</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2022/projek-helm.gif"
+                alt="Helmet Recognition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="research">
+            <div class="card-content">
+              <span class="card-index">04.</span>
+              <h3>Sign Language Recognition System</h3>
+              <span class="card-meta">Research • 2024</span>
+
+              <p>
+                Developed an AI-based system for recognizing Indonesian sign
+                language letters using computer vision and deep learning
+                techniques. The system supports real-time gesture recognition
+                and is designed to improve accessibility and communication for
+                the deaf community.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Deep Learning</span>
+                <span class="tag">MediaPipe</span>
+                <span class="tag">HTML/CSS/JS</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/no-image.png"
+                alt="Activity Recognition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="research">
+            <div class="card-content">
+              <span class="card-index">05.</span>
+              <h3>Protected Wildlife Detection System</h3>
+              <span class="card-meta">Research • 2024</span>
+
+              <p>
+                Developed a computer vision–based system for detecting and
+                identifying protected wildlife species using advanced object
+                detection techniques. The system supports automated monitoring
+                to assist conservation efforts and wildlife protection
+                initiatives.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Detectron2</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Object Detection</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/no-image.png"
+                alt="Wild Recognition"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="featured-card" data-category="academic">
+            <div class="card-content">
+              <span class="card-index">01.</span>
+              <h3>License Plate Recognition System</h3>
+              <span class="card-meta">Undergraduate Thesis • 2022</span>
+
+              <p>
+                Developed a CNN-based system for Indonesian license plate
+                recognition, including identification of provincial and regional
+                codes. The system applies optical character recognition
+                techniques and is designed for use in parking management, toll
+                systems, and traffic monitoring applications.
+              </p>
+
+              <div class="card-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">CNN</span>
+                <span class="tag">OCR</span>
+              </div>
+            </div>
+
+            <div class="card-image">
+              <img
+                src="assets/images/projects/2022/projek-skripsi.gif"
+                alt="License Plate"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-content fade-in">
+          <h2>Let's Work <span class="gradient-text">Together</span></h2>
+          <p>
+            I'm always interested in hearing about new projects and
+            opportunities.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:rizkyfitriahaya@gmail.com" class="contact-link">
+              <img
+                src="assets/images/icons/gmail.png"
+                alt="Email"
+                class="contact-icon"
+              />
+              <span>rizkyfitriahaya@gmail.com</span>
+            </a>
+            <a href="tel:+6285260020611" class="contact-link">
+              <img
+                src="assets/images/icons/phone.png"
+                alt="phone"
+                class="contact-icon"
+              />
+              <span>+62 852 6002 0611</span>
+            </a>
+            <a
+              href="https://linkedin.com/in/rizkyfitriahaya"
+              target="_blank"
+              class="contact-link"
+            >
+              <img
+                src="assets/images/icons/linkedin.png"
+                alt="linkedin"
+                class="contact-icon"
+              />
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Rizky Fitria Haya. Built with passion and code.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top" id="scrollTop">↑</div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
